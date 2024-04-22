@@ -162,132 +162,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: StickmanStandRunJump_2
-      rect:
-        serializedVersion: 2
-        x: 110
-        y: 0
-        width: 55
-        height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9f565009b98c0cfe0800000000000000
-      internalID: -1170715332654569991
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StickmanStandRunJump_3
-      rect:
-        serializedVersion: 2
-        x: 174
-        y: 0
-        width: 43
-        height: 58
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3e23e23f7ce895f40800000000000000
-      internalID: 5717758191353082595
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StickmanStandRunJump_4
-      rect:
-        serializedVersion: 2
-        x: 232
-        y: 0
-        width: 49
-        height: 58
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 381d5305d0eaa9e40800000000000000
-      internalID: 5664030853575332227
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StickmanStandRunJump_5
-      rect:
-        serializedVersion: 2
-        x: 293
-        y: 0
-        width: 31
-        height: 51
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c1871012b41b79320800000000000000
-      internalID: 2564713449045194780
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StickmanStandRunJump_6
-      rect:
-        serializedVersion: 2
-        x: 338
-        y: 12
-        width: 39
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aa0611cbe277871b0800000000000000
-      internalID: -5658641889183571798
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StickmanStandRunJump_7
-      rect:
-        serializedVersion: 2
-        x: 385
-        y: 19
-        width: 31
-        height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e623c72a7ecd2c350800000000000000
-      internalID: 6035629338051490414
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -299,6 +173,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      StickmanIdle_0: -333280794
       StickmanStandRunJump_0: 7053915160729804041
       StickmanStandRunJump_1: 2028812561482812445
       StickmanStandRunJump_2: -1170715332654569991

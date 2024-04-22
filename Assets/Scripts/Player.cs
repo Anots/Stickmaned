@@ -11,6 +11,7 @@ public class Character : MonoBehaviour
     private float maxSpeedCharacter;
     private bool canUseAbility = true;
     private SpriteRenderer spriteRenderer;
+    private Animator animator;
     private Rigidbody2D rigidBody2D;
     private BoxCollider2D boxCollider2D;
     private float puissanceJump;
@@ -40,6 +41,7 @@ public class Character : MonoBehaviour
 
     protected virtual void Start()
     {
+        animator = GetComponent<Animator>();
         boxCollider2D = GetComponent<BoxCollider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         rigidBody2D = GetComponent<Rigidbody2D>();
@@ -56,6 +58,14 @@ public class Character : MonoBehaviour
     public void GetInputsDeplacement(InputAction.CallbackContext context)
     {
         direction = context.ReadValue<Vector2>();
+        if (context.started)
+            animator.SetBool("Move", true);
+        else if (context.canceled)
+        {
+            animator.SetBool("Move", false);
+            return;
+        }
+        spriteRenderer.flipX = direction.x < 0;
     }
 
     void FixedUpdate()
@@ -75,7 +85,10 @@ public class Character : MonoBehaviour
     public void Jump(InputAction.CallbackContext context)
     {
         if (context.started && IsGrounded)
+        {
             rigidBody2D.AddForce(Vector2.up * puissanceJump, ForceMode2D.Impulse);
+            animator.SetTrigger("Jump");
+        }
         else if (context.started && IsOnWalls)
         {
             rigidBody2D.velocity = new Vector2(rigidBody2D.velocity.x, rigidBody2D.velocity.y / 2);
