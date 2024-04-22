@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Stickman2_0: -7785133728830718447
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
