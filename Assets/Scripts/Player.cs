@@ -29,8 +29,8 @@ public class Character : MonoBehaviour
         {
             return new bool[]
             {
-                Physics2D.Raycast(transform.position + Vector3.right, Vector2.right, 0.05f, layerGround),
-                Physics2D.Raycast(transform.position + Vector3.left, Vector2.left, 0.05f, layerGround)
+                Physics2D.Raycast(transform.position + Vector3.right, Vector2.right, 0.03f, layerGround),
+                Physics2D.Raycast(transform.position + Vector3.left, Vector2.left, 0.03f, layerGround)
             };
         }
     }
@@ -65,7 +65,6 @@ public class Character : MonoBehaviour
             animator.SetBool("Move", false);
             return;
         }
-        spriteRenderer.flipX = direction.x < 0;
     }
 
     void FixedUpdate()
@@ -76,6 +75,17 @@ public class Character : MonoBehaviour
 
     private void Deplacements()
     {
+        animator.SetBool("Falling", rigidBody2D.velocity.y < -0.1f);
+        animator.SetBool("Grounded", (bool)IsGrounded);
+        animator.SetBool("OnWalls", IsOnWalls);
+
+        if (IsOnWalls)
+            spriteRenderer.flipX = IsOnWall[1];
+        else if (direction.x < 0)
+            spriteRenderer.flipX = true;
+        else if (direction.x > 0)
+            spriteRenderer.flipX = false;
+            
         rigidBody2D.velocity += new Vector2((IsGrounded ? direction.x : direction.x * airControlSpeed) * AccelerationSpeedCharacter, IsOnWalls ? gravityPower / 2 : gravityPower);
         rigidBody2D.velocity = new Vector2(Mathf.Clamp(rigidBody2D.velocity.x, -maxSpeedCharacter, maxSpeedCharacter), rigidBody2D.velocity.y);
         if (IsGrounded && direction.x == 0)

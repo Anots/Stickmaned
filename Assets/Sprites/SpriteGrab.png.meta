@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: ac86dba797515b04eb203bb8062e49ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2309797814492479549
+    second: StandRunJumpGrab_0
+  - first:
+      213: -7315362271340358138
+    second: StandRunJumpGrab_1
+  - first:
+      213: -774947022952117362
+    second: StandRunJumpGrab_2
+  - first:
+      213: 2085768294583514992
+    second: StandRunJumpGrab_3
+  - first:
+      213: -775081828779698140
+    second: StandRunJumpGrab_4
+  - first:
+      213: -5379890152353391791
+    second: StandRunJumpGrab_5
+  - first:
+      213: 7410247978558996256
+    second: StandRunJumpGrab_6
+  - first:
+      213: -7271027155954746994
+    second: StandRunJumpGrab_7
+  - first:
+      213: -5385551973439273397
+    second: StandRunJumpGrab_8
+  - first:
+      213: 1439165571749597630
+    second: StandRunJumpGrab_9
+  - first:
+      213: -5205197780622905914
+    second: StandRunJumpGrab_10
+  - first:
+      213: 6741816437437420748
+    second: StandRunJumpGrab_11
+  - first:
+      213: -2477873990552875864
+    second: StandRunJumpGrab_12
+  - first:
+      213: 9035448693199086647
+    second: StandRunJumpGrab_13
+  - first:
+      213: 6495638714156788974
+    second: StandRunJumpGrab_14
+  - first:
+      213: -6409286833861188603
+    second: StandRunJumpGrab_15
+  - first:
+      213: 4001435730686515174
+    second: StandRunJumpGrab_16
+  - first:
+      213: -3769044593155567904
+    second: StandRunJumpGrab_17
+  - first:
+      213: -6912664658490512788
+    second: StandRunJumpGrab_18
+  - first:
+      213: 7794104952717914499
+    second: StandRunJumpGrab_19
+  - first:
+      213: -7080639595010392538
+    second: StandRunJumpGrab_20
+  - first:
+      213: 9217224340658333724
+    second: StandRunJumpGrab_21
+  - first:
+      213: -3513832669185162263
+    second: StandRunJumpGrab_22
+  - first:
+      213: 682975131043894873
+    second: StandRunJumpGrab_23
+  - first:
+      213: -2644380636314868692
+    second: StandRunJumpGrab_24
+  - first:
+      213: -3163224514801109364
+    second: StandRunJumpGrab_25
+  - first:
+      213: 5618569093449886398
+    second: StandRunJumpGrab_26
+  - first:
+      213: -1041397992432421526
+    second: StandRunJumpGrab_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 23.5
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteGrab_27
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 16
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112f7d919447a424991bc80890276a85
+      internalID: 694733680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 55b43e586530d654287bf9ac7960db9d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SpriteGrab_0: 1945108313
+      SpriteGrab_1: -141428204
+      SpriteGrab_10: 136906154
+      SpriteGrab_11: -932209375
+      SpriteGrab_12: -1832122746
+      SpriteGrab_13: 732136147
+      SpriteGrab_14: -1993031531
+      SpriteGrab_15: 2035302446
+      SpriteGrab_16: 1584434639
+      SpriteGrab_17: -1282836660
+      SpriteGrab_18: 1568373872
+      SpriteGrab_19: -1054386792
+      SpriteGrab_2: -1133586739
+      SpriteGrab_20: -2084379455
+      SpriteGrab_21: -804132641
+      SpriteGrab_22: -432793721
+      SpriteGrab_23: 2134595712
+      SpriteGrab_24: -372260256
+      SpriteGrab_25: 38407925
+      SpriteGrab_26: 1195529400
+      SpriteGrab_27: 694733680
+      SpriteGrab_3: -1376734546
+      SpriteGrab_4: -141360924
+      SpriteGrab_5: -1929403253
+      SpriteGrab_6: -1203282411
+      SpriteGrab_7: 766892021
+      SpriteGrab_8: -243406828
+      SpriteGrab_9: 1667587958
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
