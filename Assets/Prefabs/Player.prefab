@@ -9,11 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8000708198282721012}
+  - component: {fileID: 8884614675704762195}
   - component: {fileID: 6640201387228531115}
   - component: {fileID: 6105564737600424818}
   - component: {fileID: 5819652206858881083}
   - component: {fileID: -2949474490187466301}
-  - component: {fileID: 8884614675704762195}
   - component: {fileID: 739672099545741623}
   m_Layer: 3
   m_Name: Player
@@ -37,6 +37,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8884614675704762195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4473082393541810604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a876f4d57a3e6384da48b89c5d61635b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawGizmos: 0
+  layerGround:
+    serializedVersion: 2
+    m_Bits: 1
+  timeToRechargeAbility: 0
 --- !u!212 &6640201387228531115
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -80,7 +97,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7053915160729804041, guid: b7ccd896317d5d24993c107e73089c5c, type: 3}
+  m_Sprite: {fileID: -5205197780622905914, guid: 48942c94dcd743a4ba45451e93edf211, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -129,7 +146,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2380953, y: 2}
+    oldSize: {x: 0.7234042, y: 2}
     newSize: {x: 3.52, y: 5.97}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -162,7 +179,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &-2949474490187466301
 MonoBehaviour:
@@ -226,23 +243,6 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &8884614675704762195
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4473082393541810604}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a876f4d57a3e6384da48b89c5d61635b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  drawGizmos: 0
-  layerGround:
-    serializedVersion: 2
-    m_Bits: 1
-  timeToRechargeAbility: 0
 --- !u!95 &739672099545741623
 Animator:
   serializedVersion: 7
